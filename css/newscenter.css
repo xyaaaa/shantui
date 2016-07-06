@@ -1,0 +1,301 @@
+@charset 'utf-8';
+
+/*共用部分*/
+
+@import url(newscenter-pc.css) screen and (max-width:1500px);
+@import url(newscenter-mobile.css) screen and (max-width:640px);
+
+
+
+
+.nb {
+    padding: 50px 0 100px;
+}
+
+.newsul {
+    width: 100%;
+}
+
+.newsul li {
+    padding: 4.5% 3.5%;
+    transition: all 0.3s ease;
+}
+
+.newsul a {
+    display: block;
+}
+
+.newsul li:hover {
+    background-color: #ddd;
+}
+
+
+.txt .t {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.txt .p {
+    color: #7c7c7c;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.section2 .playbox {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.section2 .playbox ul {
+    width: 600%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.section2 .playbox ul li {
+    width: 16.66667%;
+    float: left;
+    overflow: hidden;
+}
+
+.section2 .playbox ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 60%;
+}
+
+.section2 .playbox ul li a div {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section2 .playbox ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.section2 .playbox ul li a h3 {
+    width: 92%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    padding: 0 4%;
+    height: 70px;
+    line-height: 70px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section2 .playbox .btns {
+
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.section2 .playbox .btns a {
+    display: inline-block;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #51545F;
+}
+
+.section2 .playbox .btns .on {
+    background-color: #fff;
+}
+
+.section2 .playbox .pre {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -25px;
+    z-index: 10;
+    background-image: url(../images/nzt_btn.png);
+    transition: all 0.3s ease;
+}
+
+.section2 .playbox .next {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -25px;
+    z-index: 10;
+    background-image: url(../images/nzt_btn.png);
+    background-position: -47px 0;
+    transition: all 0.3s ease;
+}
+
+.section2 .playbox .pre:hover {
+    background-position: 0 -47px;
+}
+
+.section2 .playbox .next:hover {
+    background-position: -47px -47px;
+}
+
+.section3 {
+    padding-top: 180px;
+    margin-bottom: 70px;
+    height: 466px;
+    background: url(../images/newsbox2_bg.jpg) center bottom no-repeat;
+}
+
+.section3 .wrap {
+    position: relative;
+}
+
+.section3 .imgbox {
+    position: absolute;
+    top: -185px;
+    left: 0;
+}
+
+
+
+.fu {
+    margin-bottom: 50px;
+}
+
+.fu a {
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.fu a .imgwrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+    /*height: 100%;*/
+}
+
+.fu a img {
+    width: 100%;
+}
+
+.fu a h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+
+.fu a h2 .sp1 {
+    color: #FFF;
+    font-size: 18px;
+    padding: 19px 3%;
+    width: 80%;
+    display: block;
+}
+
+.fu a h2 .sp2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-color: #f7931d;
+}
+
+.fu a h2 .sp2 i {
+    display: block;
+    width: 35px;
+    height: 32px;
+    background: url(../images/ico2.png);
+    background-position: -100px -55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -17px;
+}
+
+.fu a:hover .imgwrap {
+    width: 102%;
+    margin-left: -1%;
+}
+
+.section4 ul {
+    width: 100%;
+}
+.section4 li{
+	position: relative;
+}
+.section4 li:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border-left: #eee 1px solid;
+    position: absolute;
+    left: -13px;
+    top: 10px;
+}
+
+.section4 ul a {
+    display: block;
+    padding: 0 10px;
+}
+
+.section4 ul a .con {
+    width: 100%;
+}
+
+.section4 ul a .con .t {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.section4 ul a .con .p {
+    font-size: 14px;
+    color: #2b2b2b;
+    line-height: 1.8em;
+}
+
+.section4 ul a:hover .con>.p {
+    color: #F78503;
+}
+
+.section4 ul a:hover .con>.t {
+    color: #F78503;
+}
+
+.main5{
+margin-top: 70px;
+}
+
+
+

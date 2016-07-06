@@ -1,0 +1,123 @@
+@charset 'utf-8';
+.container {
+    // margin-top: 100px;
+    margin-bottom: 380px;
+}
+
+.section1 {
+	display: block;
+    height: 410px;
+    position: relative;
+}
+
+.section1 img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+    height: 100%;
+}
+
+.newsul a .date {
+	display:block;
+    float: left;
+    width: 15%;
+    margin-right: 5%;
+}
+
+.newsul a .date span {
+    display: block;
+    color: #f69b3a;
+}
+
+.day {
+    font-size: 50px;
+    line-height: 42px;
+}
+
+.month {
+    font-size: 14px;
+}
+.newsul a .txt {
+    float: left;
+    width: 80%;
+}
+
+.section2 .playbox .btns{
+	display: block;
+}
+
+.section3 .imgbox{
+	display: block;
+}
+
+
+.section3 .newsbox2 {
+    float: right;
+    width: 79%;
+}
+
+
+.newsbox2 .nl {
+    float: left;
+    width: 29%;
+    padding: 5% 5% 6.2%;
+    background: url(../images/white.9.png) repeat;
+}
+
+.newsbox2 .nl h2 {
+    font-size: 30px;
+}
+
+.newsbox2 .nl h2 a {
+    color: #000;
+}
+
+.newsbox2 .nl h2 a:hover {
+    color: #f78503;
+}
+
+.newsbox2 .nl h4 {
+    font-size: 18px;
+    color: #323232;
+    margin: 0;
+}
+
+.newsbox2 .nl .t {
+    color: #929292;
+    margin-top: 15px;
+    margin-bottom: 71px;
+}
+
+.newsbox2 .nr {
+    float: right;
+    width: 58%;
+}
+
+.section4{
+	margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
